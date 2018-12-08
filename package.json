@@ -1,0 +1,45 @@
+{
+    "name": "urdf",
+    "displayName": "URDF",
+    "description": "Support of URDF/xacro in VSCode",
+    "version": "0.1.0",
+    "publisher": "smilerobotics",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "icon": "img/ros.png",
+    "extensionDependencies": [
+        "xml"
+    ],
+    "categories": [
+        "Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OTL/vscode-urdf.git"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "xml",
+                "aliases": [
+                    "urdf",
+                    "URDF"
+                ],
+                "extensions": [
+                    ".urdf",
+                    ".xacro"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vscode": "^1.1.6"
+    }
+}
