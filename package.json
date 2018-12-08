@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://gitlab.com/samagalhaes/roslaunch-autocomplete-vscode.git"
     },
     "contributes": {
         "languages": [
