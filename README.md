@@ -1,11 +1,11 @@
 # urdf README
 
-[URDF](http://wiki.ros.org/urdf) support for VSCode.
+[Roslaunch](http://wiki.ros.org/roslaunch) support for VSCode.
 
 
 ## Features
 
-* Associates .urdf/.xacro files with xml format.
+* Associates .launch files with xml format.
 * Some snippets
 
 ![snippets](img/snippets.gif)
@@ -16,11 +16,8 @@
 
 ## Extension Settings
 
-there are no settings now.
+There are no settings now.
 
-## Contributors 
+## Fork change
 
-Thank you!
-
-* Olcina
-* fabiocapasso93
+  Based on the code produced by OTL for [vscode-urdf extension](https://github.com/OTL/vscode-urdf)

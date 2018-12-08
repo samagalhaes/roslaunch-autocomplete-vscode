@@ -1,9 +1,9 @@
 {
-    "name": "urdf",
-    "displayName": "URDF",
-    "description": "Support of URDF/xacro in VSCode",
+    "name": "roslaunch",
+    "displayName": "roslaunch",
+    "description": "Support of roslaunch macros in VSCode",
     "version": "0.1.0",
-    "publisher": "smilerobotics",
+    "publisher": "samagalhaes",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -16,19 +16,18 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/OTL/vscode-urdf.git"
+        "url": ""
     },
     "contributes": {
         "languages": [
             {
                 "id": "xml",
                 "aliases": [
-                    "urdf",
-                    "URDF"
+                    "roslaunch",
+                    "launch"
                 ],
                 "extensions": [
-                    ".urdf",
-                    ".xacro"
+                    ".launch"
                 ]
             }
         ],
